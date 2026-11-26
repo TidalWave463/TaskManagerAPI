@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from .models import Task
+from .models import User
 
 usersRouter = APIRouter(
     prefix="/users",

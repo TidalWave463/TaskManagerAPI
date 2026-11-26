@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 def utc_now_native():
     return datetime.now(timezone.utc).replace(tzinfo=None)
 
-class Task(Base):
+class User(Base):
     __tablename__ = "users"
     
     id = mapped_column(
